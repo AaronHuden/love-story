@@ -1,0 +1,36 @@
+{
+  "letters": [
+    {
+      "id": 1,
+      "from": "Aaron",
+      "to": "Bluu",
+      "date": "2020-02-14",
+      "title": "My Valentine",
+      "content": "My dearest Bluu,\n\nTwo years ago I didn't know you existed, and now I can't imagine a world without you. You make everything brighter — even the grayest days feel warm when you're around.\n\nThank you for being my partner, my best friend, my home. Every day with you is a gift I never knew I deserved.\n\nForever yours,\nAaron"
+    },
+    {
+      "id": 2,
+      "from": "Bluu",
+      "to": "Aaron",
+      "date": "2022-08-10",
+      "title": "The Day We Became a Family",
+      "content": "My love,\n\nToday we adopted Milo. Watching you hold him in your arms, I fell in love with you all over again. You're going to be the most amazing parent — even if it's just to a furry little monster for now.\n\nOur little family is perfect.\n\nAll my love,\nBluu"
+    },
+    {
+      "id": 3,
+      "from": "Aaron",
+      "to": "Bluu",
+      "date": "2025-03-10",
+      "title": "Yes, A Thousand Times Yes",
+      "content": "Bluu,\n\nYou caught me completely by surprise tonight. When you got down on one knee, time stopped. Everything blurred except your face, your words, your love.\n\nYes. A thousand times yes. I said yes before you even finished asking. I'll say yes every day for the rest of our lives.\n\nThis isn't just the beginning of our engagement. It's the beginning of everything we've been building towards.\n\nI can't wait to be your spouse.\n\nForever and always,\nAaron"
+    },
+    {
+      "id": 4,
+      "from": "Bluu",
+      "to": "Aaron",
+      "date": "2026-05-09",
+      "title": "To My Spouse, On Our Wedding Day",
+      "content": "My Aaron,\n\nToday I get to call you my spouse. Six years in the making, and somehow today still feels like the first day we met.\n\nRemember that barbecue? You walked in with your homemade cookies, and I knew — I knew — you were someone special. I just didn't know how special.\n\nSix years of laughter, tears, adventures, and growth. Six years of becoming the people we are today. And now, a lifetime ahead of us.\n\nThank you for choosing me. For growing with me. For loving me through all my seasons.\n\nHere's to forever.\n\nYours,\nBluu"
+    }
+  ]
+}

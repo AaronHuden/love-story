@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "year": 2020,
+      "month": "January",
+      "title": "The Beginning",
+      "description": "Our story began at the airport. The moment we laid eyes on each other, we rushed into a tight embrace — as if we'd been waiting for this moment our entire lives. That night, we sang 'Say Hello' together, and it became our song. The world felt brand new.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&h=400&fit=crop",
+      "icon": "airplane"
+    },
+    {
+      "year": 2022,
+      "month": "October",
+      "title": "The 1000th Day",
+      "description": "1,000 days together. On this day, we made it official — we became a real couple, committed and deeply in love. Every day since has been a gift. We celebrated every holiday, cherished every sunrise, and held each other through every storm. Inseparable, happy, and at peace.",
+      "image": "https://images.unsplash.com/photo-1513279922550-250c2129b13a?w=600&h=400&fit=crop",
+      "icon": "heart"
+    },
+    {
+      "year": 2022,
+      "month": "October",
+      "title": "Reunion After the Long Wait",
+      "description": "We survived a cold, difficult year — our first real test as a couple. Bluu was far away in the UK, chasing a new chapter, while Aaron held on in Shenzhen. The distance was brutal, the loneliness overwhelming. But love found its way. At last, we reunited in Shenzhen, and it all felt worth it.",
+      "image": "https://picsum.photos/id/43/600/400",
+      "icon": "compass"
+    },
+    {
+      "year": 2023,
+      "month": "September",
+      "title": "Through the Darkest Valley",
+      "description": "This was our deepest crisis. We truly lost each other for a while — darkness, despair, and hopelessness defined those days. Aaron fought through illness and fought even harder to win Bluu back. And Bluu, with a heart full of grace, chose to open the door again. We found our way back to each other, stronger than before.",
+      "image": "https://images.unsplash.com/photo-1513270645164-6f87b5b7fa51?w=600&h=400&fit=crop",
+      "icon": "rainbow"
+    },
+    {
+      "year": 2026,
+      "month": "April",
+      "title": "The Engagement",
+      "description": "Aaron got down on one knee and asked Bluu to spend forever with him. It was a simple proposal — just the two of us — but it was perfect in every way that mattered. One day, we'll make it grander, with a celebration worthy of this love. But for now, the promise alone is everything.",
+      "image": "https://images.unsplash.com/photo-1514432433435-ce2c7903dfba?w=600&h=400&fit=crop",
+      "icon": "ring"
+    },
+    {
+      "year": 2026,
+      "month": "May",
+      "title": "Happily Ever After Begins",
+      "description": "We said 'I do' and made it official — marriage, the real kind, the forever kind. Our bond is now unshakable, built on six years of laughter, tears, growth, and unwavering devotion. Two of us, one dog, two cats, one rabbit — our little family, stepping bravely into the future. Everything we've ever dreamed of is just beginning.",
+      "image": "https://images.unsplash.com/photo-1546032996-6dfacbacbf3f?w=600&h=400&fit=crop",
+      "icon": "wedding"
+    }
+  ]
+}

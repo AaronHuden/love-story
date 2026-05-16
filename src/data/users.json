@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "yangshaofeng",
+      "passwordHash": "945229d7403dbc1f2182f1bef29cb85d2368c0c5f92fc690c100642fe73ccf5d",
+      "role": "admin",
+      "displayName": "Yangshaofeng"
+    },
+    {
+      "username": "audience",
+      "passwordHash": "3471b19af6458323d3dd5473b94b22b6ef6e701bda8540d4fc6b9f255bb5b12e",
+      "role": "user",
+      "displayName": "Audience"
+    }
+  ]
+}

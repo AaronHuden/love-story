@@ -1,0 +1,17 @@
+{
+  "categories": ["All", "Travel", "Everyday", "Celebrations", "Nature"],
+  "photos": [
+    { "id": 1, "src": "https://picsum.photos/seed/gallery-1/600/800", "alt": "Sunset beach walk", "category": "Travel", "width": 600, "height": 800 },
+    { "id": 2, "src": "https://picsum.photos/seed/gallery-2/800/600", "alt": "Cooking together", "category": "Everyday", "width": 800, "height": 600 },
+    { "id": 3, "src": "https://picsum.photos/seed/gallery-3/600/600", "alt": "Birthday celebration", "category": "Celebrations", "width": 600, "height": 600 },
+    { "id": 4, "src": "https://picsum.photos/seed/gallery-4/800/1000", "alt": "Mountain hike", "category": "Travel", "width": 800, "height": 1000 },
+    { "id": 5, "src": "https://picsum.photos/seed/gallery-5/600/400", "alt": "Morning coffee ritual", "category": "Everyday", "width": 600, "height": 400 },
+    { "id": 6, "src": "https://picsum.photos/seed/gallery-6/700/700", "alt": "Engagement party", "category": "Celebrations", "width": 700, "height": 700 },
+    { "id": 7, "src": "https://picsum.photos/seed/gallery-7/600/900", "alt": "Autumn walk in the park", "category": "Nature", "width": 600, "height": 900 },
+    { "id": 8, "src": "https://picsum.photos/seed/gallery-8/900/600", "alt": "Beach sunset", "category": "Travel", "width": 900, "height": 600 },
+    { "id": 9, "src": "https://picsum.photos/seed/gallery-9/500/700", "alt": "Rainy day indoors", "category": "Everyday", "width": 500, "height": 700 },
+    { "id": 10, "src": "https://picsum.photos/seed/gallery-10/700/500", "alt": "Cherry blossom picnic", "category": "Nature", "width": 700, "height": 500 },
+    { "id": 11, "src": "https://picsum.photos/seed/gallery-11/800/800", "alt": "New Year's Eve", "category": "Celebrations", "width": 800, "height": 800 },
+    { "id": 12, "src": "https://picsum.photos/seed/gallery-12/600/500", "alt": "Weekend farmers market", "category": "Everyday", "width": 600, "height": 500 }
+  ]
+}

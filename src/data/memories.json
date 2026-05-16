@@ -1,0 +1,12 @@
+{
+  "memories": [
+    { "id": 1, "image": "https://picsum.photos/seed/memory-1/400/500", "caption": "Our first homemade dinner together. We burned the rice but it was perfect.", "date": "2019-08-20", "rotation": -2 },
+    { "id": 2, "image": "https://picsum.photos/seed/memory-2/500/400", "caption": "The day we adopted Milo. He fell asleep in my arms on the way home.", "date": "2022-08-10", "rotation": 3 },
+    { "id": 3, "image": "https://picsum.photos/seed/memory-3/400/400", "caption": "Midnight stargazing on our balcony. We counted 47 shooting stars.", "date": "2023-07-15", "rotation": -1 },
+    { "id": 4, "image": "https://picsum.photos/seed/memory-4/500/500", "caption": "When we painted the kitchen yellow. It took three coats and two days.", "date": "2021-02-05", "rotation": 2 },
+    { "id": 5, "image": "https://picsum.photos/seed/memory-5/400/550", "caption": "The proposal. You said yes before I even finished the sentence.", "date": "2025-03-10", "rotation": -3 },
+    { "id": 6, "image": "https://picsum.photos/seed/memory-6/500/400", "caption": "Building our first garden. Your sunflowers grew taller than me!", "date": "2023-04-22", "rotation": 1 },
+    { "id": 7, "image": "https://picsum.photos/seed/memory-7/400/500", "caption": "Dancing in the rain after our engagement party. Best night ever.", "date": "2025-03-10", "rotation": -2 },
+    { "id": 8, "image": "https://picsum.photos/seed/memory-8/500/400", "caption": "Our first Christmas morning in our own home. Matching pajamas, of course.", "date": "2021-12-25", "rotation": 1 }
+  ]
+}

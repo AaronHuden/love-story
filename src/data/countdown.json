@@ -1,0 +1,8 @@
+{
+  "dates": [
+    { "label": "Wedding Anniversary", "date": "2027-05-09", "icon": "ring", "color": "rose" },
+    { "label": "First Date Anniversary", "date": "2027-01-24", "icon": "heart", "color": "amber" },
+    { "label": "Engagement Anniversary", "date": "2027-04-24", "icon": "diamond", "color": "purple" },
+    { "label": "Bluu's Birthday", "lunar": { "month": 12, "day": 24 }, "icon": "cake", "color": "emerald" }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "name": "Travel the World",
+      "icon": "✈️",
+      "items": [
+        { "id": "travel-1", "text": "Visit Japan during cherry blossom season", "checked": false },
+        { "id": "travel-2", "text": "Road trip along the Amalfi Coast", "checked": false },
+        { "id": "travel-3", "text": "See the Northern Lights together", "checked": false },
+        { "id": "travel-4", "text": "Take a cooking class in Italy", "checked": false }
+      ]
+    },
+    {
+      "name": "Adventures Together",
+      "icon": "🏔️",
+      "items": [
+        { "id": "adventure-1", "text": "Go hot air ballooning", "checked": false },
+        { "id": "adventure-2", "text": "Learn to surf", "checked": false },
+        { "id": "adventure-3", "text": "Hike a mountain and watch sunrise from the top", "checked": true }
+      ]
+    },
+    {
+      "name": "Life Milestones",
+      "icon": "🏡",
+      "items": [
+        { "id": "life-1", "text": "Buy our first home", "checked": false },
+        { "id": "life-2", "text": "Plant a garden together every spring", "checked": true },
+        { "id": "life-3", "text": "Host our first Thanksgiving dinner", "checked": false },
+        { "id": "life-4", "text": "Write a time capsule to open in 10 years", "checked": false }
+      ]
+    },
+    {
+      "name": "Simple Joys",
+      "icon": "☕",
+      "items": [
+        { "id": "simple-1", "text": "Read 50 books together (one per week)", "checked": false },
+        { "id": "simple-2", "text": "Learn to make the perfect croissant", "checked": false },
+        { "id": "simple-3", "text": "Have a picnic in every park in the city", "checked": true },
+        { "id": "simple-4", "text": "Star-gaze at least once every season", "checked": false }
+      ]
+    }
+  ]
+}
