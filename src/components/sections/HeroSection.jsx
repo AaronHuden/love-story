@@ -5,9 +5,9 @@ import { useDaysTogether } from '../../hooks/useDaysTogether';
 import coupleData from '../../data/couple.json';
 
 const PHOTO_SLOTS = [
-  { col: '1 / 9', row: '1 / 4', rotate: '-1deg', scale: 'scale-105' },
-  { col: '7 / 13', row: '1 / 4', rotate: '1.5deg', scale: 'scale-105' },
-  { col: '1 / 6', row: '3 / 5', rotate: '-0.5deg', scale: 'scale-105' },
+  { col: '1 / 9', row: '1 / 4', rotate: '-91deg', scale: 'scale-105' },
+  { col: '1 / 6', row: '3 / 5', rotate: '-89.5deg', scale: 'scale-105' },
+  { col: '7 / 13', row: '1 / 4', rotate: '-0.5deg', scale: 'scale-105' },
   { col: '5 / 13', row: '3 / 5', rotate: '2deg', scale: 'scale-110' },
 ];
 

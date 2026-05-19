@@ -49,33 +49,59 @@ export default function GallerySection() {
     setLightboxIndex((i) => (i >= filteredPhotos.length - 1 ? 0 : i + 1));
   };
 
-  const handleUpload = (e) => {
+  const compressImage = (file) => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      const blobUrl = URL.createObjectURL(file);
+      img.onload = () => {
+        URL.revokeObjectURL(blobUrl);
+        const MAX = 800;
+        let { naturalWidth: w, naturalHeight: h } = img;
+        const ratio = Math.min(1, MAX / Math.max(w, h));
+        const tw = Math.round(w * ratio);
+        const th = Math.round(h * ratio);
+        const canvas = document.createElement('canvas');
+        canvas.width = tw;
+        canvas.height = th;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, tw, th);
+        canvas.toBlob((blob) => {
+          if (!blob) { reject(new Error('Canvas toBlob failed')); return; }
+          const reader = new FileReader();
+          reader.onload = () => resolve({ dataUrl: reader.result, w: tw, h: th });
+          reader.onerror = () => reject(new Error('Failed to read blob'));
+          reader.readAsDataURL(blob);
+        }, 'image/jpeg', 0.75);
+      };
+      img.onerror = () => { URL.revokeObjectURL(blobUrl); reject(new Error('Failed to load image')); };
+      img.src = blobUrl;
+    });
+  };
+
+  const handleUpload = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      const img = new Image();
-      img.onload = () => {
-        const category = activeCategory !== 'All' ? activeCategory : 'Everyday';
-        const newPhoto = {
-          id: Date.now(),
-          src: ev.target.result,
-          alt: file.name.replace(/\.[^/.]+$/, ''),
-          category,
-          width: img.naturalWidth,
-          height: img.naturalHeight,
-        };
-        setPhotos((prev) => {
-          const updated = [newPhoto, ...prev];
-          savePhotos(updated);
-          return updated;
-        });
-      };
-      img.src = ev.target.result;
-    };
-    reader.readAsDataURL(file);
-    // Reset so the same file can be re-selected
     e.target.value = '';
+    try {
+      const { dataUrl, w, h } = await compressImage(file);
+      const category = activeCategory !== 'All' ? activeCategory : 'Everyday';
+      const newPhoto = {
+        id: Date.now(),
+        src: dataUrl,
+        alt: file.name.replace(/\.[^/.]+$/, ''),
+        category,
+        width: w,
+        height: h,
+      };
+      setPhotos((prev) => {
+        const updated = [newPhoto, ...prev];
+        savePhotos(updated);
+        return updated;
+      });
+    } catch (err) {
+      console.error('Upload failed:', err);
+      alert('Upload failed: image may be too large or corrupted.');
+    }
   };
 
   const handleRemove = (id) => {
